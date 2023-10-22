@@ -1,0 +1,40 @@
+body {
+    font-size: 15pt;
+    background: url(img2.jpg) no-repeat center center/cover;
+    height: 65vh;
+    
+}
+.container{
+  padding-top: 1vh;
+  background-color: white;
+  margin-left: 10vh;
+  width: 40vh;
+  height: 23vh;
+  margin-top: 35vh;
+  text-align: center;
+  border-radius: 3vh;
+  box-shadow: 0 0 1vh ;
+}
+button{
+  margin-top: 8vh;
+  background-color: blue;
+  border: none;
+  border-radius: 1vh;
+  transition:.2s ;
+}
+button:hover{
+  background-color: red;
+}
+#play{
+  height: 9vh;
+  width: 9vh;
+}
+.time{
+  padding: 1vw 0;
+background-color: grey;
+height: 4vh;
+margin-top: 2vh;
+border: 0.5vw black solid ;
+margin-left: 8vh;
+width: 40vw;
+}
